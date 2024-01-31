@@ -1,0 +1,35 @@
+
+    body {
+        padding-top: 60px;
+    }
+
+
+  .container {
+    background-color: rgb(61, 75, 100); /* Fehér tartalom terület */
+    padding: 20px;
+    border-radius: 10px; /* Opcionális: lekerekített sarkok */
+    box-shadow: 0 0 10px rgb(2, 0, 0); /* Opcionális: árnyék */
+  }
+
+  .navbar {
+    background-color: #000000; /* Sötét háttérszín a navigációs sávhoz */
+  }
+
+  .navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff; /* Fehér ikon a mobil nézetben */
+  }
+ 
+  h2 {
+    text-align: center;
+    color: ghostwhite;
+  }
+
+  .szin {
+      color: ghostwhite;
+  }
+
+
+img {
+  width: 310px;
+  height: 330px;
+}

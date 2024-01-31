@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Best Frags</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="#">Best Frags</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lap tetejére</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kosár</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./image/parfum.png" class="card-img-top" alt="Parfüm 1">
+          <div class="card-body">
+            <h5 class="card-title"> <a href="./parfum.html">Jean Paul</a> </h5>
+            <p class="card-text">Ez egy csodálatos parfüm, amely friss illattal rendelkezik.</p>
+            <p class="card-text"><strong>Ár: 55.000FT</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Jean Paul', 55000)">Kosárba</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./image/azzar-fo.jpg" class="card-img-top" alt="Parfüm 2">
+          <div class="card-body">
+            <h5 class="card-title"> <a href="./parfum2.html">Azzaro</a></h5>
+            <p class="card-text">Ez a parfüm édes és érzéki illattal rendelkezik.</p>
+            <p class="card-text"><strong>Ár: 37.000FT</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Azzaro', 37000)">Kosárba</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="./image/v er-fo.JPG" class="card-img-top" alt="Parfüm 3">
+          <div class="card-body">
+            <h5 class="card-title"> <a href="./parfum3.html">Versacce</a></h5>
+            <p class="card-text">Ez a parfüm virágos és romantikus illattal rendelkezik.</p>
+            <p class="card-text"><strong>Ár: 45.000FT</strong></p>
+            <button class="btn btn-primary" onclick="addToCart('Versacce', 45000)">Kosárba</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12">
+          <h2>Bolt ismertető</h2>
+          <div class="szin">
+              <p>
+            Üdvözöljük a Best Frags-ben! Az online üzletünkben kiváló minőségű parfümöket talál, amelyek friss, érzéki és elegáns illatokkal rendelkeznek. 
+            Minden termékünket gondosan kiválasztottuk, hogy önnek a legjobb élményt nyújtsuk. Vásároljon tőlünk bizalommal, és fedezze fel az exkluzív parfümök 
+            világát! Rengeteg akcióval és termékkel várjuk, széles választak remek illat. 99%-os megbízhatóság. Nagy vásárló kör.
+          </p>
+        </div>
+        </div>
+      </div>
+    <div class="row mt-4">
+        <div class="col-md-12">
+          <h2>Termék bemutató</h2>
+          <div class="szin">
+              <p>
+            Rengeteg termék elérhető nállunk. Állandóan próbáljuk bővíteni termékeink választékat és változtatni rajtuk. Részletes leírást a termékek nevére katintva kap. Jelenleg felkapott termékünk: <strong> <a href="./parfum2.html">Azzaro</a> </strong> <br>
+            Reméljük sikeresen választani tud a termékek közül. Íme 3 kép a legfelkapottabb termékről:
+          </p>
+        </div>
+          
+
+          <div class="row">
+            <div class="col-md-4">
+              <a href="./image/vers.jpg" target="_blank">
+                <img src="./image/vers.jpg" class="img-fluid" alt="Versacce">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="./image/KEk-jean" target="_blank">
+                <img src="./image/KEk-jean" class="img-fluid" alt="Jean Paul">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="./image/azz-sarga" target="_blank">
+                <img src="./image/azz-sarga" class="img-fluid" alt="Azzaro">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-12">
+          <div class="szin">
+              <p>
+            Jelenleg ezek a parfümök felkapottak de próbálunk frissíteni a weboldalon állandóan. Minél több és minél jobb parfümökkel. Nyári/téli illatokkal egy aránt.
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script>
+    let cart = [];
+
+    function addToCart(product, price) {
+      cart.push({ product, price });
+      alert(`${product} hozzáadva a kosárhoz. Összeg: $${calculateTotal()}`);
+    }
+
+    function calculateTotal() {
+      let total = 0;
+      for (let item of cart) {
+        total += item.price;
+      }
+      return total;
+    }
+  </script>
+
+</body>
+</html>
